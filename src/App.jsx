@@ -2,6 +2,20 @@ import Header from "./components/Header"
 import Card from "./components/Card"
 import Hero from "./components/Hero"
 import "./App.css"
+import data from "./utils/data"
+
+
+const dataEl = data.map(item => {
+  return (
+    <Card 
+      key={item.id}
+      item={item}
+  />
+  )
+})
+
+console.log(dataEl)
+
 
 
 export default function App () {
@@ -10,7 +24,7 @@ export default function App () {
       <Header />
       <Hero />
       <div className="card--list">
-        <Card />
+        {dataEl}
       </div>
 
     </>

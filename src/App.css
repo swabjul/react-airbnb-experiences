@@ -52,16 +52,55 @@ header {
   color: #222;
 }
 
+.card--list {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 49px 36px 30px;
+  display: flex;
+  gap: 18px;
+  overflow: auto;
+}
 
+.card {
+  width: 176px;
+  min-width: 176px;
+}
 
+.card--photo {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
 
+.card--stats {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 8px;
+}
 
+.card--star {
+  width: 14px;
+}
 
+.card--rating {
+  font-weight: 300;
+  font-size: calc(12rem / 16);
+  color: #222;
+}
 
+.card--count, .card--location {
+  font-weight: 300;
+  font-size: calc(12rem / 16);
+  color: #918E9B;
+}
 
-
-
-
+.card--title, .card--price {
+  font-weight: 300;
+  font-size: calc(12rem / 16);
+  color: #222;
+  margin-bottom: 8px;
+}
 
 
 
