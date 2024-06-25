@@ -1,8 +1,4 @@
 export default function Card(props) {
-
-  console.log(  props.item.id)
-
-
   return (
     <div className="card">
       <img className="card--photo" src={`./images/${props.item.coverImg}`} alt="" />
