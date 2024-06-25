@@ -1,0 +1,114 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  height: 70px;
+  box-shadow: 0px 2.98px 7.46px 0px #0000001A;
+  display: flex;
+  align-items: center;
+  padding-inline: 30px;
+
+}
+
+.header--logo {
+  width: 82px;
+}
+
+.hero {
+  padding: 26px 36px 0;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.hero--image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 395px;
+  margin: 0 auto;
+}
+
+.hero--image img {
+  width: 100%;
+}
+
+.hero--heading {
+  font-weight: 600;
+  font-size: calc(36rem / 16);
+  color: #000;
+}
+
+.hero--description {
+  max-width: 320px;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
